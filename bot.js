@@ -108,9 +108,11 @@ function onMessageHandler(target, user, msg, self) {
         }, 1800000); // 60000ms = 60s = 1min
       }
       break;
-    case 'size':
+      
+      /* - The entirety of the !dicksize command in all it's glory! Bow before it!
+     case 'size':
     case 'dicksize': // Sizes up Chris'! Magnum Dong (Or not)
-      var num = dickRand();
+       var num = dickRand();
       switch (true) {
         case num <= 1:
           client.say(target, `Mcloudi has a microscopic ${num} inch weiner`);
@@ -155,6 +157,10 @@ function onMessageHandler(target, user, msg, self) {
       }
       console.log(`* Executed ${command} command`);
       break;
+      
+      */
+      
+      
     case 'mcloud2dab':
     case 'dab': // Dabs the specified amount of times
       let num1 = randomNum(10);
@@ -209,14 +215,14 @@ function onMessageHandler(target, user, msg, self) {
     case 'commands': // Informs the issuer of *most* possible commands with the bot
       /*
       List of all possible commands with the bot (Including those not shown with the !help command )
-      dicksize, dab, prime, discord, wap, sub, activate, f, about, 
+      dicksize (disabled), dab, prime, discord, wap, sub (Disbaled), activate, f, about, 
       */
-      client.say(target, `List of current commands: !dicksize, !dab, !prime, !discord, !wap, !coggers, !sub, !about, !onlyfans, !activate, !bttvemotes, !ffzemotes, !magic`);
+      client.say(target, `List of current commands: !dab, !prime, !discord, !wap, !coggers, !about, !onlyfans, !activate, !bttvemotes, !ffzemotes, !magic`);
       console.log(`* Executed ${command
         } command`);
       break;
     case 'discord': // Sends a link to the public stream discord
-      client.say(target, `https://discord.gg/mTwYJYV`);
+      client.say(target, `https://discord.gg/eaJt8DtQBV`);
       console.log(`* Executed ${command
         } command`);
       break;
@@ -254,12 +260,18 @@ function onMessageHandler(target, user, msg, self) {
       console.log(`* Executed ${command
         } command`);
       break;
+      
+      
+      /* - The entirety of the Sub Command - Disabled until he can get subs
     case 'subscribe':
     case 'sub': // Generates a link to the subscribe button
       client.say(target, `https://subs.twitch.tv/mcloudi`);
       console.log(`* Executed ${command
         } command`);
       break;
+      */
+      
+      
     case 'f': // The bot pays it's respects
       client.say(target, `F`);
       console.log(`* Executed ${command
@@ -389,7 +401,7 @@ function randomNum(outOf) {
 function shill() {
   switch (randomNum(1)) {
     case 1:
-      client.say(opts.channels[0], 'Here you can find Mcloudi\'s discord https://discord.gg/mTwYJYV');
+      client.say(opts.channels[0], 'Here you can find Burning Nomad\'s discord https://discord.gg/eaJt8DtQBV');
       break;
     //case 2:
     //client.say(opts.channels[0], 'Don\'t forget about twitch prime. https://subs.twitch.tv/mcloudi ');
