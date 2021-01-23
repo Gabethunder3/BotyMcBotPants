@@ -291,7 +291,7 @@ function onMessageHandler(target, user, msg, self) {
       break;
     case 'bttv':
     case 'bttvemotes': // Lists all currently enabled Better Twitch TV emotes
-      client.say(target, 'The current enabled bttv emotes are catJAM , Clap , cloudPet , COGGERS , gachiBASS , HACKERMANS , Kissahomie5 , KKool , modCheck , pepeD , pepeJAM , PepePls , ppOverHeat , ricardoFlick , sumSmash , TriDance .')
+      client.say(target, 'The current enabled bttv emotes are catJAM , Clap , COGGERS , gachiBASS , HACKERMANS , Kissahomie5 , KKool , modCheck , pepeD , pepeJAM , PepePls , ppOverHeat , ricardoFlick , sumSmash , TriDance .')
       console.log(`* Exectued ${command
         } command`);
       break;
