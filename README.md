@@ -1,2 +1,2 @@
-# mcloudibot
-A twitch bot
+# BotyMcBotPants
+The greatest twitch bot ever
