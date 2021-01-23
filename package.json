@@ -1,7 +1,7 @@
 {
   "name": "twitch-chatbot",
   "version": "0.0.2",
-  "description": "The Offical bot of Chris Mcloud",
+  "description": "The greatest Twitch bot",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
