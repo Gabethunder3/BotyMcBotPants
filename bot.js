@@ -217,7 +217,7 @@ function onMessageHandler(target, user, msg, self) {
       List of all possible commands with the bot (Including those not shown with the !help command )
       dicksize (disabled), dab, prime, discord, wap, sub (Disbaled), activate, f, about, 
       */
-      client.say(target, `List of current commands: !dab, !prime, !discord, !wap, !coggers, !about, !onlyfans, !activate, !bttvemotes, !ffzemotes, !magic`);
+      client.say(target, `List of current commands: !prime, !youtube, !discord, !wap, !coggers, !about, !onlyfans, !activate, !bttvemotes, !ffzemotes, !magic`);
       console.log(`* Executed ${command
         } command`);
       break;
@@ -308,14 +308,14 @@ function onMessageHandler(target, user, msg, self) {
       break;
     case 'thicc':
     case 'thiccc': // Gives information about the bot and thanks the creators
-      client.say(target, 'Damn boy he thicc.');
+      client.say(target, 'Damn boy he thicc. BurningFlame');
       console.log(`* Exectued ${command
         } command`);
       break;
     case 'onlyfans':
       switch (randomNum(2)) {
         case 1:
-          client.say(target, 'https://bit.ly/3uPkjTE');
+          client.say(target, 'BurningFlame https://bit.ly/3uPkjTE BurningFlame');
           console.log(`* Exectued ${command
             } command`);
           break;
