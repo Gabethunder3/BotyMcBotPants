@@ -179,7 +179,7 @@ function onMessageHandler(target, user, msg, self) {
     case 'catjam': case 'clap': case 'pepega': case 'sumsmash': case 'tridance': case 'cloudpet': case 'gachibass': case 'kissahomie5': case 'kkool': case 'modcheck': case 'peped':
     case 'pepejam': case 'pepepls': case 'ppoverheat': case 'ricardoflick':
     case '4head'://FFZ 
-    case 'feelsdankman': case 'forsencd': case 'ayaya': case 'handsup': case 'hypers': case 'kkonaw': case 'lulw':
+    case 'feelsdankman': case 'forsencd': case 'ayaya': case 'handsup': case 'hypers': case 'kkonaw': case 'lulw': case 'popCat':
     case 'pausechamp': case 'peepopog': case 'pagchomp': case 'okaychamp': case 'monkaw': case 'pepega': case 'pog': case 'pogu': case 'sadge': case 'weirdchamp': case 'widehard': case 'widehardo': case 'peeposad': case 'peepopogyoupoo':
     case 'widepeepohappy'://:case ':tf:'
     case 'widepeeposad': case 'd:': case 'duckerz': case 'angelthump': case 'ariw': case 'baconeffect': case 'basedgod': case 'brobalt': case 'bttvnice': case 'burself': case 'buttersauce': case 'candianrage': case 'cigrip': case 'concerndoge': case 'cruw': case 'cvhazmat': case 'cvl': case 'cvmask': case 'cvr': case 'datsauce':
