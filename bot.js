@@ -177,7 +177,7 @@ function onMessageHandler(target, user, msg, self) {
     case 'hackermans':
     case 'mcloud2triggered':
     case 'catjam': case 'clap': case 'pepega': case 'sumsmash': case 'tridance': case 'cloudpet': case 'gachibass': case 'kissahomie5': case 'kkool': case 'modcheck': case 'peped':
-    case 'pepejam': case 'pepepls': case 'ppoverheat': case 'ricardoflick': case 'popCat':
+    case 'pepejam': case 'pepepls': case 'ppoverheat': case 'ricardoflick': case 'popcat':
     case '4head'://FFZ 
     case 'feelsdankman': case 'forsencd': case 'ayaya': case 'handsup': case 'hypers': case 'kkonaw': case 'lulw':
     case 'pausechamp': case 'peepopog': case 'pagchomp': case 'okaychamp': case 'monkaw': case 'pog': case 'pogu': case 'sadge': case 'weirdchamp': case 'widehard': case 'widehardo': case 'peeposad': case 'peepopogyoupoo':
