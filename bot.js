@@ -232,7 +232,7 @@ function onMessageHandler(target, user, msg, self) {
       } command`);
       break;
     case 'youtube':
-      client.say(target, `https://youtube.com/watch?v=oHg5SJYRHA0&feature=share`);
+      client.say(target, `https://bit.ly/3uPkjTE`);
       console.log(`* Executed ${command
       } command`);
       break;
@@ -315,7 +315,7 @@ function onMessageHandler(target, user, msg, self) {
     case 'onlyfans':
       switch (randomNum(2)) {
         case 1:
-          client.say(target, 'https://youtube.com/watch?v=oHg5SJYRHA0&feature=share');
+          client.say(target, 'https://bit.ly/3uPkjTE');
           console.log(`* Exectued ${command
             } command`);
           break;
