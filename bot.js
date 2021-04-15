@@ -204,13 +204,13 @@ function onMessageHandler(target, user, msg, self) {
       console.log(`* Executed ${command
         } command`);
       break;
-    case 'twitter':
-      client.say(target, `Here is mcloudi's twitter: https://twitter.com/McloudI_?s=20 `);
-      break;
-    case 'streamraider':
-    case 'streamraiders':
-      client.say(target, `Join us in battle! https://www.streamraiders.com/t/mcloudi `);
-      break;
+   // case 'twitter':
+    //  client.say(target, `Here is mcloudi's twitter: https://twitter.com/McloudI_?s=20 `);
+    //  break;
+  //  case 'streamraider':
+    //case 'streamraiders':
+    //  client.say(target, `Join us in battle! https://www.streamraiders.com/t/mcloudi `);
+    //  break;
     case 'help'://Automatically sends you to the !commands output
     case 'commands': // Informs the issuer of *most* possible commands with the bot
       /*
@@ -228,6 +228,11 @@ function onMessageHandler(target, user, msg, self) {
       break;
     case 'website':
       client.say(target, `https://www.mcloudi.com`);
+      console.log(`* Executed ${command
+      } command`);
+      break;
+    case 'youtube':
+      client.say(target, `https://youtube.com/watch?v=oHg5SJYRHA0&feature=share`);
       console.log(`* Executed ${command
       } command`);
       break;
@@ -285,7 +290,7 @@ function onMessageHandler(target, user, msg, self) {
         } command`);
       break
     case 'about': // Gives information about the bot and thanks the creators
-      client.say(target, 'Coded by: @gabethunder3 , @NubsiePie , and @Butterwhales. Thanks to @Mcloudi for humoring our B.S.!')
+      client.say(target, 'Coded by: @gabethunder3 , @NubsiePie , and @Butterwhales. Thanks to @BurningNomad for humoring our B.S.!')
       console.log(`* Exectued ${command
         } command`);
       break;
@@ -310,7 +315,7 @@ function onMessageHandler(target, user, msg, self) {
     case 'onlyfans':
       switch (randomNum(2)) {
         case 1:
-          client.say(target, 'Doesn\'t exist yet but maybe some day. ;) ');
+          client.say(target, 'https://youtube.com/watch?v=oHg5SJYRHA0&feature=share');
           console.log(`* Exectued ${command
             } command`);
           break;
@@ -350,7 +355,7 @@ function onMessageHandler(target, user, msg, self) {
       }
       break;
     case 'server':
-      client.say(target, "This server is a private paper spigot server on a minecraft earth map and Mcloudi is playing as the first lady of the USA.");
+      client.say(target, "This server is a private paper spigot server on a minecraft earth map");
       console.log(`* Exectued ${command} command`);
       break;
     /*case '!gamble':
@@ -416,21 +421,21 @@ function onConnectedHandler(addr, port) {
 }
 
 client.on("subscription", function (channel, username, method, message, userstate) {
-  client.say(channel, `Thank you for subbing ${username} mcloud2Dab`);
+  client.say(channel, `Thank you for subbing ${username} COGGERS`);
 });
 
 client.on("resub", function (channel, username, months, message, userstate, methods) {
   if (months == 0) {
-    client.say(channel, `Thank you for subbing ${username} again! mcloud2Dab`);
+    client.say(channel, `Thank you for subbing ${username} again! COGGERS`);
   } else {
-    client.say(channel, `${username} Has subscribed for ${months} months. mcloud2Dab`);
+    client.say(channel, `${username} Has subscribed for ${months} months. COGGERS`);
   }
 });
 
 client.on("subgift", function (channel, username, streakMonths, recipient, methods, userstate) {
-  client.say(channel, `Thank you ${username} for gifting to ${recipient} mcloud2Dab`);
+  client.say(channel, `Thank you ${username} for gifting to ${recipient} COGGERS`);
 });
 
 client.on("submysterygift", function (channel, username, numbOfSubs, methods, userstate) {
-  client.say(channel, `Thank you ${username} for gifting ${numbOfSubs} subs mcloud2Dab`);
+  client.say(channel, `Thank you ${username} for gifting ${numbOfSubs} subs COGGERS`);
 });
